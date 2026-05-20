@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "description": "Employment Tribunal decisions tagged with Equality Act 2010 jurisdiction codes. Metadata only — outcomes and awards not available without PDF parsing.",
+    "source": "GOV.UK Employment Tribunal Decisions service",
+    "source_url": "https://www.gov.uk/employment-tribunal-decisions",
+    "last_updated": null,
+    "total_cases": 0,
+    "fields_note": "Fields available from metadata: case_ref, case_name, claimant, respondent, decision_date, publication_date, jurisdiction_codes, country, tribunal_level, pdf_url, page_url, scraped_at. Fields NOT available without PDF parsing: outcome, award, judge, tribunal_office, hearing_date."
+  },
+  "cases": []
+}
