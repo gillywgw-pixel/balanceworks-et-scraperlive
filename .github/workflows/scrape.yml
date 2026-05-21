@@ -2,8 +2,9 @@ name: Scrape ET Decisions
 
 on:
   schedule:
-    # Runs every Monday at 06:00 UTC
-    - cron: '0 6 * * 1'
+    # Runs on Mondays in the first 7 days of each month (= first Monday of month)
+    # at 06:00 UTC
+    - cron: '0 6 1-7 * 1'
   workflow_dispatch:
     # Allow manual trigger from GitHub Actions UI
 
@@ -24,10 +25,12 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4 lxml
+          pip install requests beautifulsoup4 lxml pdfplumber anthropic
 
-      - name: Run scraper
-        run: python scraper.py
+      - name: Run scraper with PDF parsing
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scraper.py --parse-pdfs
 
       - name: Commit results
         run: |
@@ -35,5 +38,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/et-decisions.json
           # Only commit if there are changes
-          git diff --staged --quiet || git commit -m "chore: weekly ET decisions update $(date -u +'%Y-%m-%d')"
+          git diff --staged --quiet || git commit -m "chore: monthly ET decisions update $(date -u +'%Y-%m-%d')"
           git push

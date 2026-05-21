@@ -1,11 +1,12 @@
 {
   "meta": {
-    "description": "Employment Tribunal decisions tagged with Equality Act 2010 jurisdiction codes. Metadata only — outcomes and awards not available without PDF parsing.",
+    "description": "Employment Tribunal decisions tagged with Equality Act 2010 jurisdiction codes, with PDF-parsed outcome and award data where available.",
     "source": "GOV.UK Employment Tribunal Decisions service",
     "source_url": "https://www.gov.uk/employment-tribunal-decisions",
-    "last_updated": "2026-05-20T21:24:48.362831+00:00",
+    "last_updated": "2026-05-21T20:36:04.142327+00:00",
     "total_cases": 50,
-    "fields_note": "Fields available from metadata: case_ref, case_name, claimant, respondent, decision_date, publication_date, jurisdiction_codes, country, tribunal_level, pdf_url, page_url, scraped_at. Fields NOT available without PDF parsing: outcome, award, judge, tribunal_office, hearing_date."
+    "pdf_parsed_cases": 50,
+    "pdf_parsing_model": "claude-haiku-4-5-20251001"
   },
   "cases": [
     {
@@ -20,7 +21,25 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c3a51c510c3913d826825/Mrs_A_Brookes_v_Black_Pearl_Offshore_Limited_6014438-2024_Judgment.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/mrs-a-brookes-v-black-pearl-offshore-ltd-6014438-slash-2024",
-      "scraped_at": "2026-05-20T21:23:22.082787+00:00"
+      "scraped_at": "2026-05-20T21:23:22.082787+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:30:35.990710+00:00",
+      "outcome": "Claimant Won",
+      "total_award": 25949.68,
+      "award_breakdown": {
+        "injury_to_feelings": 1142.9,
+        "loss_of_earnings": 24806.2,
+        "other": null
+      },
+      "protected_characteristics": [
+        "Age"
+      ],
+      "claim_types": [
+        "Direct Discrimination"
+      ],
+      "judge": "Employment Judge Rice-Birchall",
+      "tribunal_office": "London South",
+      "key_principle": "Direct age discrimination claim succeeded; claimant entitled to compensation for financial losses and injury to feelings."
     },
     {
       "case_ref": "3304769/2025",
@@ -34,7 +53,21 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a049558c0cc74b4523e4d8b/Mrs_H_L_Gurney_v_Clare_Fletcher_T.A_Sunrise_Cleaning_Services_3304769_2025_Judgment.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/mrs-h-l-gurney-v-c-fletcher-t-slash-a-sunrise-cleaning-services-3304769-slash-2025",
-      "scraped_at": "2026-05-20T21:23:25.290847+00:00"
+      "scraped_at": "2026-05-20T21:23:25.290847+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:30:40.189103+00:00",
+      "outcome": "Claimant Won",
+      "total_award": 1040.35,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": 1040.35
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "M Warren",
+      "tribunal_office": "South East Employment Tribunal",
+      "key_principle": "Respondent liable for unauthorized wage deductions, wrongful dismissal, and unpaid holiday entitlement."
     },
     {
       "case_ref": "3309115/2024",
@@ -48,7 +81,25 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a047b10ee62840dba48a1f3/Ms_M_Ariano_v_Cutting_Edge_Podiatry_Ltd_3309115_2024_Judgment.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/ms-m-ariano-v-cutting-edge-podiatry-ltd-3309115-slash-2024",
-      "scraped_at": "2026-05-20T21:23:28.439599+00:00"
+      "scraped_at": "2026-05-20T21:23:28.439599+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:30:45.442685+00:00",
+      "outcome": "Withdrawn",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [
+        "Disability"
+      ],
+      "claim_types": [
+        "Failure to Make Reasonable Adjustments"
+      ],
+      "judge": "Employment Judge Tynan",
+      "tribunal_office": "Cambridge",
+      "key_principle": "Claim dismissed for non-attendance where claimant fails to pursue case and ignores case management orders."
     },
     {
       "case_ref": "3305163/2024",
@@ -62,7 +113,21 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a04528b81a251700a20b4fa/Mr_J_Makwana_v_Transport_UK_London_Bus_Limited_3305163_2024_Judgment.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-j-makwana-v-transport-uk-london-bus-ltd-3305163-slash-2024",
-      "scraped_at": "2026-05-20T21:23:32.431805+00:00"
+      "scraped_at": "2026-05-20T21:23:32.431805+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:30:49.837730+00:00",
+      "outcome": "Respondent Won",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "Employment Judge Dick",
+      "tribunal_office": "Watford",
+      "key_principle": "Claimant's unfair dismissal complaint was not well-founded and dismissed."
     },
     {
       "case_ref": "6019993/2024",
@@ -76,7 +141,26 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c753dc75cc34a8ff8f562/Mr_Hughes_Kadima_v_Watford_General_Hospital_6019993.2024_Judgment_.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-h-kadima-v-watford-general-hospital-6019993-slash-2024",
-      "scraped_at": "2026-05-20T21:23:33.793152+00:00"
+      "scraped_at": "2026-05-20T21:23:33.793152+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:30:54.709540+00:00",
+      "outcome": "Unknown",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [
+        "Race",
+        "Sex"
+      ],
+      "claim_types": [
+        "Direct Discrimination"
+      ],
+      "judge": "Employment Judge MJ Smith",
+      "tribunal_office": "Watford",
+      "key_principle": "Factual disputes between parties must be resolved at final hearing, not by strike-out application."
     },
     {
       "case_ref": "6025697/2025",
@@ -90,7 +174,21 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c7477c510c3913d826891/Aloiso_Santos_v_Kudos_Mobility_Group_6025697_2025_Judgment.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/a-santos-v-kudos-mobility-group-6025697-slash-2025",
-      "scraped_at": "2026-05-20T21:23:35.633593+00:00"
+      "scraped_at": "2026-05-20T21:23:35.633593+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:30:58.799711+00:00",
+      "outcome": "Withdrawn",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "Employment Judge George",
+      "tribunal_office": null,
+      "key_principle": "Claim struck out for non-compliance with tribunal orders and failure to actively pursue the case."
     },
     {
       "case_ref": "6001807/2025",
@@ -104,7 +202,25 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c73d5c75cc34a8ff8f55d/Mr_J_Spence_v_The_BSS_Group_Limited___other_6001807.2025_Judgment_.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-j-spence-v-the-bss-group-ltd-and-travis-perkins-plc-6001807-slash-2025",
-      "scraped_at": "2026-05-20T21:23:37.896904+00:00"
+      "scraped_at": "2026-05-20T21:23:37.896904+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:31:04.378103+00:00",
+      "outcome": "Withdrawn",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [
+        "Disability"
+      ],
+      "claim_types": [
+        "Failure to Make Reasonable Adjustments"
+      ],
+      "judge": "Employment Judge Dick",
+      "tribunal_office": "Watford",
+      "key_principle": "Claimant's claim dismissed for non-attendance where claimant failed to engage and comply with tribunal orders."
     },
     {
       "case_ref": "6006291/2025",
@@ -118,7 +234,21 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c72f4279ebb7d24f8f4f3/Ms_Stephanie_Ehioze_v_Elysium_Healthcare_Limited_6006291.2025_Judgment_.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/ms-s-ehioze-v-elysium-healthcare-ltd-6006291-slash-2025",
-      "scraped_at": "2026-05-20T21:23:39.270855+00:00"
+      "scraped_at": "2026-05-20T21:23:39.270855+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:31:10.719164+00:00",
+      "outcome": "Respondent Won",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "Employment Judge MJ Smith",
+      "tribunal_office": "Watford",
+      "key_principle": "Claims presented outside statutory time limits cannot proceed unless reasonable practicability or just and equitable extension applies."
     },
     {
       "case_ref": "1604167/2025",
@@ -132,7 +262,21 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c5ae8229555d0fe82684e/1604167.2025_M_Naylor_v_Airsoft_Cymru_The_Depot_Judgment.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/m-naylor-v-airsoft-cymru-the-depot-ltd-1604167-slash-2025",
-      "scraped_at": "2026-05-20T21:23:40.634234+00:00"
+      "scraped_at": "2026-05-20T21:23:40.634234+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:31:15.326708+00:00",
+      "outcome": "Claimant Won",
+      "total_award": 11327.28,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": 6146.03,
+        "other": 5181.25
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "Employment Judge K Hunt",
+      "tribunal_office": "Cardiff",
+      "key_principle": "Employers must pay unlawful wage deductions, notice pay, and accrued holiday entitlements upon termination."
     },
     {
       "case_ref": "6010960/2024",
@@ -146,7 +290,21 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c56b0229555d0fe82684c/Mr_L_Thompson_v_Cepac_Limited_and_Other_6019060-24_Judgment.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-l-thompson-v-cepac-ltd-and-page-outsourcing-uk-ltd-6010960-slash-2024",
-      "scraped_at": "2026-05-20T21:23:42.515703+00:00"
+      "scraped_at": "2026-05-20T21:23:42.515703+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:31:27.780816+00:00",
+      "outcome": "Respondent Won",
+      "total_award": 20000.0,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": 20000.0
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "Employment Judge James",
+      "tribunal_office": "Newcastle",
+      "key_principle": "Claims struck out where claimant's conduct is unreasonable, scandalous and vexatious."
     },
     {
       "case_ref": "2501299/2024",
@@ -160,7 +318,26 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c5564229555d0fe82684b/Mrs_C_Sansum_v_Secretary_of_State_for_Justice_-_2501299-2024_-_Judgment.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/mrs-c-sansum-v-secretaty-of-state-for-justice-2501299-slash-2024",
-      "scraped_at": "2026-05-20T21:23:44.378859+00:00"
+      "scraped_at": "2026-05-20T21:23:44.378859+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:31:33.470058+00:00",
+      "outcome": "Respondent Won",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [
+        "Disability"
+      ],
+      "claim_types": [
+        "Direct Discrimination",
+        "Failure to Make Reasonable Adjustments"
+      ],
+      "judge": "Employment Judge Langridge",
+      "tribunal_office": "Newcastle upon Tyne Hearing Centre",
+      "key_principle": "Claims dismissed for non-attendance where claimant failed to communicate or comply with tribunal orders."
     },
     {
       "case_ref": "6045094/2025",
@@ -174,7 +351,21 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c39aff7c2e79c33db91b1/Mr_Mario_Colasurdo_v_Besamalsore_UK_Ltd_t-a_Topolino_6045094-2025.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-m-colasurdo-v-besamalsore-uk-ltd-t-slash-a-topolino-6045094-slash-2025",
-      "scraped_at": "2026-05-20T21:23:48.043257+00:00"
+      "scraped_at": "2026-05-20T21:23:48.043257+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:31:38.818455+00:00",
+      "outcome": "Claimant Won",
+      "total_award": 2591.43,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": 2591.43,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "Employment Judge Tsamados",
+      "tribunal_office": "London South Croydon",
+      "key_principle": "Employer must pay accrued holiday pay under Working Time Regulations 1998 based on gross weekly wages and full period of employment."
     },
     {
       "case_ref": "6004790/2024",
@@ -188,7 +379,21 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c38db279ebb7d24f8f48a/Jason_North_v_Surrey_County_Council_6004790-2024_Strike-Out_Judgment_22-April_-26.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/j-north-v-surrey-county-council-6004790-slash-2024",
-      "scraped_at": "2026-05-20T21:23:49.409860+00:00"
+      "scraped_at": "2026-05-20T21:23:49.409860+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:31:43.038858+00:00",
+      "outcome": "Withdrawn",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "Employment Judge Rice-Birchall",
+      "tribunal_office": null,
+      "key_principle": "Claims may be struck out under Rule 38 when claimants fail to comply with tribunal orders and do not actively pursue their claims."
     },
     {
       "case_ref": "2305663/2023",
@@ -202,7 +407,21 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c2ef0229555d0fe8267e6/Mr_R_Kaseram_v_Oxleas_NHS_Foundation_Trust_2305663-2023_-_Judgment_By_Consent_22-Apr-26.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-r-kaseram-v-oxleas-nhs-foundation-trust-2305663-slash-2023",
-      "scraped_at": "2026-05-20T21:23:52.924427+00:00"
+      "scraped_at": "2026-05-20T21:23:52.924427+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:31:47.165111+00:00",
+      "outcome": "Settled",
+      "total_award": 1782.6,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": 1782.6,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "EJ Ramsden",
+      "tribunal_office": "London South",
+      "key_principle": "Unauthorised wage deductions must be repaid to the employee."
     },
     {
       "case_ref": "6041801/2025",
@@ -216,7 +435,21 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c2cf6279ebb7d24f8f465/Ms_S_Simina_Ann_Summers_Limited_Judgment_2_6041801-2025.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/s-simina-v-ann-summers-ltd-6041801-slash-2025",
-      "scraped_at": "2026-05-20T21:23:57.362079+00:00"
+      "scraped_at": "2026-05-20T21:23:57.362079+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:31:51.277447+00:00",
+      "outcome": "Withdrawn",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "Employment Judge Fowell",
+      "tribunal_office": null,
+      "key_principle": "Unfair dismissal claims require two years' service; claim struck out for lacking jurisdiction."
     },
     {
       "case_ref": "6032675/2025",
@@ -230,7 +463,21 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c2a5ef7c2e79c33db9182/Miss_L_Dear_v_House_on_the_hill_6032675-2025_Judgment_17-03-2026.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/miss-l-dear-v-house-on-the-hill-6032675-slash-2025",
-      "scraped_at": "2026-05-20T21:23:59.701223+00:00"
+      "scraped_at": "2026-05-20T21:23:59.701223+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:31:55.830632+00:00",
+      "outcome": "Withdrawn",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "Employment Judge Burge",
+      "tribunal_office": null,
+      "key_principle": "Claims not actively pursued may be struck out under Rule 38 without further hearing."
     },
     {
       "case_ref": "6020985/2024",
@@ -244,7 +491,21 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c292f279ebb7d24f8f460/Ms_A_Kozlowska_v_Zotefoams_PLC_6020985-2024_Judgment_24-04-2026.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/ms-a-kozlowska-v-zotefoams-plc-6020985-slash-2024",
-      "scraped_at": "2026-05-20T21:24:01.067864+00:00"
+      "scraped_at": "2026-05-20T21:24:01.067864+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:32:06.374668+00:00",
+      "outcome": "Unknown",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "T Perry",
+      "tribunal_office": "London South Employment Tribunal",
+      "key_principle": "Strike out is draconian and only appropriate in clear cut cases with disputed facts rare."
     },
     {
       "case_ref": "2305555/2024",
@@ -258,7 +519,21 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c26b1c510c3913d8267f8/Mr_Stuart_Brown_v_The_Chief_Constable_of_Sussex_2305555-2024_Judgment.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-s-brown-v-the-chief-constable-of-sussex-2305555-slash-2024",
-      "scraped_at": "2026-05-20T21:24:05.033591+00:00"
+      "scraped_at": "2026-05-20T21:24:05.033591+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:32:10.488996+00:00",
+      "outcome": "Unknown",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "Employment Judge Hallen",
+      "tribunal_office": "London South Hearing Centre",
+      "key_principle": "Previous judgment revoked; jurisdiction issue to be determined at future hearing."
     },
     {
       "case_ref": "6044164/2025",
@@ -272,7 +547,21 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c24be279ebb7d24f8f451/Ms_S_Jonin_v_Travel_Nexus_Limited_6044164-2025_Judgment_16-04-2026.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/ms-s-jonin-v-travel-nexus-ltd-6044164-slash-2025",
-      "scraped_at": "2026-05-20T21:24:06.506079+00:00"
+      "scraped_at": "2026-05-20T21:24:06.506079+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:32:14.724688+00:00",
+      "outcome": "Claimant Won",
+      "total_award": 36607.0,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": 36607.0,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "Employment Judge T Perry",
+      "tribunal_office": "London South Employment Tribunal",
+      "key_principle": "Employer liable for unpaid wages, notice pay, completion bonus, and holiday pay."
     },
     {
       "case_ref": "2305071/2024",
@@ -286,7 +575,25 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c2301279ebb7d24f8f44f/Miss_A_Randhawa_v_British_Airways_PLC_2305071-2024_-_Judgment_15-Apr-26.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/miss-a-randhawa-v-british-airways-plc-2305071-slash-2024",
-      "scraped_at": "2026-05-20T21:24:08.437825+00:00"
+      "scraped_at": "2026-05-20T21:24:08.437825+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:32:19.012910+00:00",
+      "outcome": "Respondent Won",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [
+        "Disability"
+      ],
+      "claim_types": [
+        "Failure to Make Reasonable Adjustments"
+      ],
+      "judge": "Employment Judge Ramsden",
+      "tribunal_office": "London South",
+      "key_principle": "Employer's failure to make reasonable adjustments claim dismissed where applicant applied for apprenticeship role."
     },
     {
       "case_ref": "2302758/2024",
@@ -300,7 +607,21 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c2201279ebb7d24f8f44c/Ms_D_Wellington_v_Greensleeves_Homes_Trust__t-a_Greensleeves_Care__Judgment_2__2302758-2024.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/ms-d-wellington-v-greensleeves-homes-trust-t-slash-a-greensleeves-care-2302758-slash-2024",
-      "scraped_at": "2026-05-20T21:24:10.369251+00:00"
+      "scraped_at": "2026-05-20T21:24:10.369251+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:32:22.830803+00:00",
+      "outcome": "Unknown",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "Employment Judge Ramsden",
+      "tribunal_office": null,
+      "key_principle": "Claim struck out for lack of active pursuit and non-cooperation with procedural requirements."
     },
     {
       "case_ref": "6004086/2024",
@@ -314,7 +635,27 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c4a85fcae986635db91bd/Mr_Ian_Wroe_v_Barchester_Health_Care_Limited_-_6004086_2024_-_Judgment.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-i-wroe-v-barchester-health-care-ltd-6004086-slash-2024",
-      "scraped_at": "2026-05-20T21:24:11.738347+00:00"
+      "scraped_at": "2026-05-20T21:24:11.738347+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:32:27.724477+00:00",
+      "outcome": "Claimant Won",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [
+        "Disability"
+      ],
+      "claim_types": [
+        "Failure to Make Reasonable Adjustments",
+        "Harassment",
+        "Victimisation"
+      ],
+      "judge": "Employment Judge Aspinall",
+      "tribunal_office": null,
+      "key_principle": "Employer failed to reasonably adjust work rostering and workload; harassment and victimisation occurred via disability remarks and NMC referral threat."
     },
     {
       "case_ref": "6001809/2026",
@@ -328,7 +669,21 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c876ec75cc34a8ff8f58e/Ms_Buxton_v_Financial_Conduct_Authority_-_6001809_2026_-_Judgment.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/ms-buxton-v-financial-conduct-authority-6001809-slash-2026",
-      "scraped_at": "2026-05-20T21:24:13.624326+00:00"
+      "scraped_at": "2026-05-20T21:24:13.624326+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:32:32.244269+00:00",
+      "outcome": "Respondent Won",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "Employment Judge Howden-Evans",
+      "tribunal_office": "London East Hearing Centre",
+      "key_principle": "Application for interim relief under section 128 Employment Rights Act 1996 was dismissed."
     },
     {
       "case_ref": "6004525/2026",
@@ -342,7 +697,21 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c86c0c510c3913d8268bf/Dr_NashmilMahmood_v_Barking_Havering_and_Redbridge_University_Hospitals_NHS_Trust_-_6004525_2026_-_Interim_Relief_Judgment.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/dr-n-mahmood-v-barking-havering-and-redbridge-university-hospitals-nhs-trust-6004525-slash-2026",
-      "scraped_at": "2026-05-20T21:24:17.841518+00:00"
+      "scraped_at": "2026-05-20T21:24:17.841518+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:32:37.028223+00:00",
+      "outcome": "Unknown",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "C Lewis",
+      "tribunal_office": "East London Employment Tribunal",
+      "key_principle": "Interim relief application for automatic unfair dismissal claim refused."
     },
     {
       "case_ref": "6009065/2025",
@@ -356,7 +725,21 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c48adf7c2e79c33db91cc/S_Crann_v_Trust_Alliance_Group_Ltd_-_6009065_2025_-_Judgment.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/s-crann-v-trust-alliance-group-ltd-6009065-slash-2025",
-      "scraped_at": "2026-05-20T21:24:19.219372+00:00"
+      "scraped_at": "2026-05-20T21:24:19.219372+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:32:40.939374+00:00",
+      "outcome": "Withdrawn",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "Phil Allen",
+      "tribunal_office": null,
+      "key_principle": "Claim struck out under Rule 38 for failure to actively pursue proceedings."
     },
     {
       "case_ref": "6010929/2024",
@@ -370,7 +753,21 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c47df279ebb7d24f8f4ac/Mr_J_Aird_v_Bilfinger_UK_Ltd_-_6010929_2024_-_Judgment.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-j-aird-v-bilfinger-uk-ltd-6010929-slash-2024",
-      "scraped_at": "2026-05-20T21:24:20.586604+00:00"
+      "scraped_at": "2026-05-20T21:24:20.586604+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:32:45.284778+00:00",
+      "outcome": "Unknown",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "Employment Judge Ainscough",
+      "tribunal_office": "Liverpool",
+      "key_principle": "Strike out application refused; claim allowed to proceed."
     },
     {
       "case_ref": "3201161/2024",
@@ -384,7 +781,26 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c833ec510c3913d8268ba/Mr_S_Akanbi_v_Supreme_Guarding_Services_Limited_-_3201161_2024_-_Judgment.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-s-akanbi-v-supreme-guarding-services-ltd-3201161-slash-2024",
-      "scraped_at": "2026-05-20T21:24:22.468154+00:00"
+      "scraped_at": "2026-05-20T21:24:22.468154+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:32:49.718940+00:00",
+      "outcome": "Respondent Won",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [
+        "Race"
+      ],
+      "claim_types": [
+        "Direct Discrimination",
+        "Victimisation"
+      ],
+      "judge": "Employment Judge Howden-Evans",
+      "tribunal_office": "London East Hearing Centre",
+      "key_principle": "Claimant's complaints of direct race discrimination and victimisation were dismissed as not well-founded."
     },
     {
       "case_ref": "3200517/2024",
@@ -398,7 +814,25 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c8152279ebb7d24f8f509/Ms_Sihle_Moyo_v_Cecil_Home_Care_Services_Limited_-_3200517_2024_-_Judgment.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/ms-s-moyo-v-cecil-home-care-services-ltd-3200517-slash-2024",
-      "scraped_at": "2026-05-20T21:24:25.317928+00:00"
+      "scraped_at": "2026-05-20T21:24:25.317928+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:32:54.102555+00:00",
+      "outcome": "Claimant Won",
+      "total_award": 14930.17,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": 14930.17,
+        "other": null
+      },
+      "protected_characteristics": [
+        "Pregnancy and Maternity"
+      ],
+      "claim_types": [
+        "Direct Discrimination"
+      ],
+      "judge": "Employment Judge B Gardiner",
+      "tribunal_office": "East London Hearing Centre",
+      "key_principle": "Dismissal by reason of childbirth constitutes automatic unfair dismissal under ERA 1996 s.99."
     },
     {
       "case_ref": "6003623/2024",
@@ -412,7 +846,26 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c7efff7c2e79c33db9236/Ms_T_Namayanja_v_Proritas_Healthcare_Professionals_Ltd_-_6003623_2024_-_Judgment_.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/ms-t-namayanja-v-proritas-healthcare-professionals-ltd-6003623-slash-2024",
-      "scraped_at": "2026-05-20T21:24:28.561397+00:00"
+      "scraped_at": "2026-05-20T21:24:28.561397+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:33:03.403562+00:00",
+      "outcome": "Claimant Won",
+      "total_award": 3396.82,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": 3396.82,
+        "other": null
+      },
+      "protected_characteristics": [
+        "Religion or Belief"
+      ],
+      "claim_types": [
+        "Direct Discrimination",
+        "Harassment"
+      ],
+      "judge": "Employment Judge J Feeny",
+      "tribunal_office": "East London Hearing Centre",
+      "key_principle": "Religion discrimination and harassment claims dismissed; breach of contract and unauthorised wage deductions upheld."
     },
     {
       "case_ref": "6030762/2025",
@@ -426,7 +879,21 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c7d4fc510c3913d8268a8/Teresa_Blandford_v_Spiritualist_National_Union_t.a_The_Arthur_Findlay_College_-_6030762_2025_-_Judgment.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/t-blandford-v-spiritualist-national-union-t-slash-a-the-arthur-findlay-college-6030762-slash-2025",
-      "scraped_at": "2026-05-20T21:24:29.921391+00:00"
+      "scraped_at": "2026-05-20T21:24:29.921391+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:33:08.041946+00:00",
+      "outcome": "Claimant Won",
+      "total_award": 11160.39,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": 9692.91,
+        "other": 1467.48
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "Employment Judge S Knight",
+      "tribunal_office": "London East Hearing Centre",
+      "key_principle": "Claimant was unfairly dismissed and entitled to basic and compensatory awards."
     },
     {
       "case_ref": "2412198/2023",
@@ -440,7 +907,25 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c4bd3fcae986635db91c2/Mr_J_Bonnsain_v_Barclays_Bank_UK_Plc_-_2412198_2023_-_Judgment.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-j-bonnsain-v-barclays-bank-uk-plc-2412198-slash-2023",
-      "scraped_at": "2026-05-20T21:24:31.377923+00:00"
+      "scraped_at": "2026-05-20T21:24:31.377923+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:33:12.840532+00:00",
+      "outcome": "Respondent Won",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [
+        "Disability"
+      ],
+      "claim_types": [
+        "Failure to Make Reasonable Adjustments"
+      ],
+      "judge": "Employment Judge McDonald",
+      "tribunal_office": "Manchester",
+      "key_principle": "Claims for failure to make reasonable adjustments dismissed where claimant withdrew or failed to establish liability."
     },
     {
       "case_ref": "2410886/2023",
@@ -454,7 +939,28 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c4449c510c3913d82682c/Miss_S_J_Venables_v_Bridgwater_Community_Healthcare_NHS_Foundation_Trust_-_2407869_2023___2410886_2023_-_Judgment.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/miss-s-j-venables-v-bridgwater-community-healthcare-nhs-foundation-trust-2407869-slash-2023-and-2410886-slash-2023",
-      "scraped_at": "2026-05-20T21:24:34.625389+00:00"
+      "scraped_at": "2026-05-20T21:24:34.625389+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:33:29.477116+00:00",
+      "outcome": "Claimant Won",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [
+        "Disability"
+      ],
+      "claim_types": [
+        "Harassment",
+        "Direct Discrimination",
+        "Failure to Make Reasonable Adjustments",
+        "Victimisation"
+      ],
+      "judge": "Employment Judge Johnson",
+      "tribunal_office": "Liverpool",
+      "key_principle": "Failure to provide usable larger screen constituted breach of reasonable adjustments duty."
     },
     {
       "case_ref": "3200419/2024",
@@ -468,7 +974,27 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c7bdcc75cc34a8ff8f56b/Mr_O_Olasehinde_v_M_Group_Energy_Metering_Limited_-_3200419_2024_-_Judgment.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-o-olasehinde-v-m-group-energy-metering-ltd-3200419-slash-2024",
-      "scraped_at": "2026-05-20T21:24:36.673568+00:00"
+      "scraped_at": "2026-05-20T21:24:36.673568+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:33:43.836924+00:00",
+      "outcome": "Respondent Won",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [
+        "Race",
+        "Disability"
+      ],
+      "claim_types": [
+        "Direct Discrimination",
+        "Failure to Make Reasonable Adjustments"
+      ],
+      "judge": "Employment Judge D Massarella",
+      "tribunal_office": "East London Hearing Centre",
+      "key_principle": "Capability dismissal for long-term ill-health following proper process does not constitute unlawful discrimination."
     },
     {
       "case_ref": "6034935/2025",
@@ -482,7 +1008,21 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c683ff7c2e79c33db9210/Mr_S_Wright_-vs-_EF_Bakers_Ltd_-_6034935.2025_-_Judgment.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-s-wright-v-ef-bakers-ltd-6034935-slash-2025",
-      "scraped_at": "2026-05-20T21:24:38.708849+00:00"
+      "scraped_at": "2026-05-20T21:24:38.708849+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:33:47.764295+00:00",
+      "outcome": "Unknown",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "Employment Judge Cadney",
+      "tribunal_office": null,
+      "key_principle": "Claimant lacked sufficient length of service for tribunal to hear unfair dismissal claim."
     },
     {
       "case_ref": "6015669/2024",
@@ -496,7 +1036,26 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c660ac510c3913d826874/Mr_Yong_Han_Andy_Tan__v_Allerton_C_S_SW_Limited_-__6015669.2024___Judgment___28.4.26.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-y-h-a-tan-v-allerton-c-and-s-sw-ltd-6015669-slash-2024",
-      "scraped_at": "2026-05-20T21:24:40.849665+00:00"
+      "scraped_at": "2026-05-20T21:24:40.849665+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:33:53.721371+00:00",
+      "outcome": "Unknown",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [
+        "Disability"
+      ],
+      "claim_types": [
+        "Direct Discrimination",
+        "Failure to Make Reasonable Adjustments"
+      ],
+      "judge": "N J Roper",
+      "tribunal_office": null,
+      "key_principle": "Back injury from July 2024 satisfied disability definition; head injury did not."
     },
     {
       "case_ref": "1401673/2025",
@@ -510,7 +1069,21 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c64fcc75cc34a8ff8f533/Mr_O_Belding_-vs-_Michael_Clift_and_Sons_Garden_Service_Ltd_-_Amended_Judgment.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-o-belding-v-michael-clift-and-sons-garden-service-ltd-1401673-slash-2025",
-      "scraped_at": "2026-05-20T21:24:43.019381+00:00"
+      "scraped_at": "2026-05-20T21:24:43.019381+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:33:57.998158+00:00",
+      "outcome": "Claimant Won",
+      "total_award": 7451.93,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": 7451.93
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "Employment Judge Smail",
+      "tribunal_office": "Bristol Employment Tribunal",
+      "key_principle": "Breach of contract damages, redundancy payment and unpaid holiday entitlement are recoverable in employment tribunal."
     },
     {
       "case_ref": "6007192/2025",
@@ -524,7 +1097,21 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c6142c75cc34a8ff8f526/Miss_E_Kolaniak_-vs-_Nice_Systems_UK_Ltd_-_6007192.2025_-_Judgment.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/miss-e-kolaniak-v-nice-systems-uk-ltd-6007192-slash-2025",
-      "scraped_at": "2026-05-20T21:24:45.060536+00:00"
+      "scraped_at": "2026-05-20T21:24:45.060536+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:34:06.012125+00:00",
+      "outcome": "Claimant Won",
+      "total_award": 6957.45,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": 6957.45,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "Employment Judge Mr J S Burns",
+      "tribunal_office": "Bristol",
+      "key_principle": "Redundancy dismissal unfair where consultation inadequate and grievance ignored."
     },
     {
       "case_ref": "6031254/2025",
@@ -538,7 +1125,21 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c606a229555d0fe826857/A_Marmont_-vs-_KINETIC_GAMES_LIMITED_-_Judgment.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/a-marmont-v-kinetic-games-ltd-6031254-slash-2025",
-      "scraped_at": "2026-05-20T21:24:46.898987+00:00"
+      "scraped_at": "2026-05-20T21:24:46.898987+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:34:10.305761+00:00",
+      "outcome": "Unknown",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "Employment Judge Bax",
+      "tribunal_office": null,
+      "key_principle": "Claimant must have two years service to bring unfair dismissal complaint under ERA 1996."
     },
     {
       "case_ref": "6038744/2025",
@@ -552,7 +1153,21 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0c0db7f7c2e79c33db9157/Mr_Samuel_Burton_v_Nelipak_Elsham_Ltd_-_6038744.2025_-_Final.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-s-burton-v-nelipak-elsham-ltd-6038744-slash-2025",
-      "scraped_at": "2026-05-20T21:24:48.361592+00:00"
+      "scraped_at": "2026-05-20T21:24:48.361592+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:34:17.592982+00:00",
+      "outcome": "Respondent Won",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "Employment Judge R S Drake",
+      "tribunal_office": "Leeds",
+      "key_principle": "Claimant failed to establish constructive unfair dismissal or unlawful deductions from pay claims."
     },
     {
       "case_ref": "2302753/2023",
@@ -566,7 +1181,29 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/69e89db99ca985145673b813/Miss_E_Gresley_v_SRCL_Limited_2302753-2023_Reserved_Judgment_and_Reasons_-_05-Mar-26.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/miss-e-gresley-v-srcl-ltd-2302753-slash-2023",
-      "scraped_at": "2026-05-20T21:24:03.165234+00:00"
+      "scraped_at": "2026-05-20T21:24:03.165234+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:34:42.036860+00:00",
+      "outcome": "Respondent Won",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [
+        "Disability",
+        "Age",
+        "Sex"
+      ],
+      "claim_types": [
+        "Direct Discrimination",
+        "Harassment",
+        "Failure to Make Reasonable Adjustments"
+      ],
+      "judge": "Employment Judge Sudra",
+      "tribunal_office": "London South Employment Tribunal",
+      "key_principle": "Claimant's discrimination and unfair dismissal claims dismissed; employer accepted reasonable adjustments were made."
     },
     {
       "case_ref": "2302606/2024",
@@ -580,7 +1217,26 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/69d7859647eb6fd98375fa06/Ms_A_M_Thompson_v_No5_Beauty_and_Aesthetics_2302606-2024_-_Judgment___Reasons.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/ms-a-thompson-v-no5-beauty-and-aesthetics-ltd-and-others-2302606-slash-2024",
-      "scraped_at": "2026-05-20T21:23:50.786711+00:00"
+      "scraped_at": "2026-05-20T21:23:50.786711+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:34:52.639347+00:00",
+      "outcome": "Claimant Won",
+      "total_award": 7041.36,
+      "award_breakdown": {
+        "injury_to_feelings": 2343.23,
+        "loss_of_earnings": 1038.57,
+        "other": 3659.56
+      },
+      "protected_characteristics": [
+        "Pregnancy and Maternity"
+      ],
+      "claim_types": [
+        "Direct Discrimination",
+        "Failure to Make Reasonable Adjustments"
+      ],
+      "judge": "Employment Judge Cawthray",
+      "tribunal_office": "London South",
+      "key_principle": "Refusal to pay maternity pay and implement pay increase constitutes pregnancy discrimination."
     },
     {
       "case_ref": "6031763/2025",
@@ -594,7 +1250,23 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/69c40b2c23fcbcd838a6f6b3/Mr._A._Naumov_v__FIL_Investment_Management_Limited_6031763-2025__Judgment_11-09-2025.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-a-naumov-v-fil-investment-management-ltd-6031763-slash-2025",
-      "scraped_at": "2026-05-20T21:23:54.985783+00:00"
+      "scraped_at": "2026-05-20T21:23:54.985783+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:35:02.580974+00:00",
+      "outcome": "Respondent Won",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [
+        "Victimisation"
+      ],
+      "judge": "Employment Judge Sudra",
+      "tribunal_office": "London South Employment Tribunal",
+      "key_principle": "Interim relief refused where dismissal relates to conduct rather than protected disclosure."
     },
     {
       "case_ref": "6003895/2024",
@@ -608,7 +1280,28 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/69abe1a8bde9c3f213c89982/Mr_P_Lindley_v_Diamond_Bus__North_West__Limited_-_6003895_2024_-_Judgment.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-p-lindley-v-diamond-bus-north-west-ltd-6003895-slash-2024",
-      "scraped_at": "2026-05-20T21:24:15.970461+00:00"
+      "scraped_at": "2026-05-20T21:24:15.970461+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:35:07.968312+00:00",
+      "outcome": "Claimant Won",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [
+        "Disability"
+      ],
+      "claim_types": [
+        "Direct Discrimination",
+        "Indirect Discrimination",
+        "Harassment",
+        "Failure to Make Reasonable Adjustments"
+      ],
+      "judge": "Employment Judge Kenward",
+      "tribunal_office": "Manchester",
+      "key_principle": "Applying Bradford factor score to disability-related absences without proper disability consideration constitutes discrimination."
     },
     {
       "case_ref": "4106855/2024",
@@ -622,7 +1315,25 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/6a0db8b45c3c79da61662e01/4106855.2024_J_Ogundolani_v_Viewpoint_Housing_Association_Ltd_-_Judgment.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/j-ogundolani-v-viewpoint-housing-association-ltd-4106855-slash-2024",
-      "scraped_at": "2026-05-20T21:23:46.260889+00:00"
+      "scraped_at": "2026-05-20T21:23:46.260889+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:35:17.201830+00:00",
+      "outcome": "Respondent Won",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [
+        "Race"
+      ],
+      "claim_types": [
+        "Direct Discrimination"
+      ],
+      "judge": "Employment Judge Porter SIR",
+      "tribunal_office": "Edinburgh",
+      "key_principle": "Claims out of time lack jurisdiction; claimant failed to establish it was not reasonably practicable to submit claim in time."
     },
     {
       "case_ref": "2407361/2023",
@@ -636,7 +1347,23 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/693c0c0633c7ace9c4a420e7/Mr_M_Imms___Mr_R_Latham_v_A_One_Distribution__UK__Limited_-_2407352_2023___2407361_2023_-_Judgment.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-m-imms-and-mr-r-latham-v-a-one-distribution-uk-ltd-2407352-slash-2023-and-2407361-slash-2023",
-      "scraped_at": "2026-05-20T21:24:33.258314+00:00"
+      "scraped_at": "2026-05-20T21:24:33.258314+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:35:34.815505+00:00",
+      "outcome": "Claimant Won",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [
+        "Failure to Make Reasonable Adjustments"
+      ],
+      "judge": "Employment Judge Johnson",
+      "tribunal_office": "Liverpool",
+      "key_principle": "Constructive unfair dismissal established through fundamental breaches of implied trust and confidence."
     },
     {
       "case_ref": "6006960/2024",
@@ -650,7 +1377,23 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/693182a9502f392086ee8c0d/Miss_A._Squelch_v_Mizzling_Limited_-_6006960_2024_-_Judgment.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/miss-a-squelch-v-mizzling-ltd-6006960-slash-2024",
-      "scraped_at": "2026-05-20T21:24:23.841539+00:00"
+      "scraped_at": "2026-05-20T21:24:23.841539+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:35:39.874124+00:00",
+      "outcome": "Unknown",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [
+        "Disability"
+      ],
+      "claim_types": [],
+      "judge": "Employment Judge Leach",
+      "tribunal_office": null,
+      "key_principle": "Respondent's response struck out for failure to comply with tribunal orders and provide required information."
     },
     {
       "case_ref": "3302387/2025",
@@ -664,7 +1407,21 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/68cab2852fe4b313286c9fe0/Miss_N_Johnson_v_Bletchley_and_Fenny_Stratford_Town_Hall-3302387-_2025-Judgment.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/miss-n-johnson-v-bletchley-and-fenny-stratford-town-hall-3302387-slash-2025",
-      "scraped_at": "2026-05-20T21:23:27.066790+00:00"
+      "scraped_at": "2026-05-20T21:23:27.066790+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:35:44.223179+00:00",
+      "outcome": "Unknown",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "Employment Judge Tynan",
+      "tribunal_office": null,
+      "key_principle": "Unfair dismissal claim struck out where claimant lacks two years' continuous employment."
     },
     {
       "case_ref": "2402875/2024",
@@ -678,7 +1435,26 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/67ebeaec199d1cd55b48c5ae/Miss_F_Begum_v_Kier_Limited__3309200.2024_-_IRF_Judgment.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/miss-f-begum-v-kier-ltd-3309200-slash-2024",
-      "scraped_at": "2026-05-20T21:23:23.454245+00:00"
+      "scraped_at": "2026-05-20T21:23:23.454245+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:35:52.149448+00:00",
+      "outcome": "Respondent Won",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [
+        "Race",
+        "Disability"
+      ],
+      "claim_types": [
+        "Victimisation"
+      ],
+      "judge": "Employment Judge M Warren",
+      "tribunal_office": "Watford",
+      "key_principle": "Claimant unlikely to succeed on automatic unfair dismissal for protected disclosure where dismissal reason was pre-existing performance concerns."
     },
     {
       "case_ref": "2413003/2023",
@@ -692,7 +1468,23 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/677cfa066f01ae28ab5c043e/Mrs_K_Lester_v_The_Chief_Constable_of_Greater_Manchester_Police_-_2413003_2023.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/mrs-k-lester-v-the-chief-constable-of-greater-manchester-police-2413003-slash-2023",
-      "scraped_at": "2026-05-20T21:24:27.193933+00:00"
+      "scraped_at": "2026-05-20T21:24:27.193933+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:35:57.353398+00:00",
+      "outcome": "Unknown",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [
+        "Harassment"
+      ],
+      "judge": "Employment Judge Leach",
+      "tribunal_office": "Manchester Employment Tribunal",
+      "key_principle": "Time limit extension for harassment claims may be granted as just and equitable under section 123(b) Equality Act 2010."
     },
     {
       "case_ref": "3305402/2023",
@@ -706,7 +1498,21 @@
       "tribunal_level": "Employment Tribunal",
       "pdf_url": "https://assets.publishing.service.gov.uk/media/65858181ed3c34000d3bfddb/HJS_GENERATION_JUDGMENT__-_v_-_Commissioners_for_Revenue_and_Customs_-_3305402-2023_-_Judgment.pdf",
       "page_url": "https://www.gov.uk/employment-tribunal-decisions/hjs-generation-ltd-v-commissioners-for-revenue-and-customs-3305402-slash-2023",
-      "scraped_at": "2026-05-20T21:23:30.546210+00:00"
+      "scraped_at": "2026-05-20T21:23:30.546210+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-05-21T20:36:02.933181+00:00",
+      "outcome": "Unknown",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "Employment Judge Laidler",
+      "tribunal_office": "Bury St Edmunds",
+      "key_principle": "Appeal concerning National Minimum Wage Notice of Underpayment adjourned pending respondent's explanation for non-compliance."
     }
   ]
 }
