@@ -3,7 +3,7 @@
     "description": "Employment Tribunal decisions tagged with Equality Act 2010 jurisdiction codes, with PDF-parsed outcome and award data where available.",
     "source": "GOV.UK Employment Tribunal Decisions service",
     "source_url": "https://www.gov.uk/employment-tribunal-decisions",
-    "last_updated": "2026-06-06T08:43:12.226580+00:00",
+    "last_updated": "2026-06-07T09:22:15.816139+00:00",
     "total_cases": 8134,
     "pdf_parsed_cases": 8133,
     "pdf_parsing_model": "claude-haiku-4-5-20251001"
