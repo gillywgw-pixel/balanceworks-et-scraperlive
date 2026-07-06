@@ -3,12 +3,40 @@
     "description": "Employment Tribunal decisions tagged with Equality Act 2010 jurisdiction codes, with PDF-parsed outcome and award data where available.",
     "source": "GOV.UK Employment Tribunal Decisions service",
     "source_url": "https://www.gov.uk/employment-tribunal-decisions",
-    "last_updated": "2026-07-05T09:12:25.445942+00:00",
-    "total_cases": 8413,
-    "pdf_parsed_cases": 8412,
+    "last_updated": "2026-07-06T10:46:59.081401+00:00",
+    "total_cases": 8415,
+    "pdf_parsed_cases": 8414,
     "pdf_parsing_model": "claude-haiku-4-5-20251001"
   },
   "cases": [
+    {
+      "case_ref": "2303272/2025",
+      "case_name": "Major G Brady v Ministry of Defence: 2303272/2025",
+      "claimant": "Major G Brady",
+      "respondent": "Ministry of Defence",
+      "decision_date": "2026-07-06T11:21:44+01:00",
+      "publication_date": "",
+      "jurisdiction_codes": [],
+      "country": "England and Wales",
+      "tribunal_level": "Employment Tribunal",
+      "pdf_url": "https://assets.publishing.service.gov.uk/media/6a44f3b7167a99cf0018da71/Major_G_Brady_v_Ministry_of_Defence_-_2303272.2025_-_Judgment.pdf",
+      "page_url": "https://www.gov.uk/employment-tribunal-decisions/major-g-brady-v-ministry-of-defence-2303272-slash-2025",
+      "scraped_at": "2026-07-06T10:46:55.020117+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-07-06T10:46:59.077761+00:00",
+      "outcome": "Respondent Won",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "S MacLean",
+      "tribunal_office": "Glasgow",
+      "key_principle": "Armed Forces members must exhaust service complaint procedures before tribunal jurisdiction exists under part-time worker regulations."
+    },
     {
       "case_ref": "1400080/2025",
       "case_name": "Mr M Foster v Sterling Facilities Management (UK) Ltd: 1400080/2025",
@@ -47761,6 +47789,38 @@
       "tribunal_office": "London Central ET",
       "key_principle": "Disability discrimination and harassment claims dismissed as not well founded.",
       "sector": "Healthcare"
+    },
+    {
+      "case_ref": "8000679/2025",
+      "case_name": "Ms L Borrini v The National Trust for Scotland: 8000679/2025",
+      "claimant": "Ms L Borrini",
+      "respondent": "The National Trust for Scotland",
+      "decision_date": "2026-02-01T13:17:42+00:00",
+      "publication_date": "",
+      "jurisdiction_codes": [],
+      "country": "England and Wales",
+      "tribunal_level": "Employment Tribunal",
+      "pdf_url": "https://assets.publishing.service.gov.uk/media/697c841b2ff8d10a830d5dac/Ms_L_Borrini_v_The_National_Trust_for_Scotland__SC007410_-_8000679.2025_-_Judgment.pdf",
+      "page_url": "https://www.gov.uk/employment-tribunal-decisions/ms-l-borrini-v-the-national-trust-for-scotland-8000679-slash-2025",
+      "scraped_at": "2026-07-06T10:46:45.111466+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-07-06T10:46:53.611696+00:00",
+      "outcome": "Respondent Won",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [
+        "Disability"
+      ],
+      "claim_types": [
+        "Failure to Make Reasonable Adjustments"
+      ],
+      "judge": "Employment Judge A Strain",
+      "tribunal_office": "Aberdeen",
+      "key_principle": "Fixed-term employee detriment claims presented out of time cannot proceed without just and equitable extension."
     },
     {
       "case_ref": "4100376/2025",
