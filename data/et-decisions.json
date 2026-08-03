@@ -3,9 +3,9 @@
     "description": "Employment Tribunal decisions tagged with Equality Act 2010 jurisdiction codes, with PDF-parsed outcome and award data where available.",
     "source": "GOV.UK Employment Tribunal Decisions service",
     "source_url": "https://www.gov.uk/employment-tribunal-decisions",
-    "last_updated": "2026-08-02T08:29:54.144598+00:00",
-    "total_cases": 8635,
-    "pdf_parsed_cases": 8634,
+    "last_updated": "2026-08-03T09:54:25.420154+00:00",
+    "total_cases": 8636,
+    "pdf_parsed_cases": 8635,
     "pdf_parsing_model": "claude-haiku-4-5-20251001"
   },
   "cases": [
@@ -21138,6 +21138,34 @@
       "tribunal_office": "Southampton",
       "key_principle": "Internal appeal does not extend time limit for unfair dismissal claims; claimant knew of time limits.",
       "sector": "Finance"
+    },
+    {
+      "case_ref": "6029884/2025",
+      "case_name": "J Wright v Mrs D Douglas T/a Harlequin Property Services: 6029884/2025",
+      "claimant": "J Wright",
+      "respondent": "Mrs D Douglas T/a Harlequin Property Services",
+      "decision_date": "2026-05-22T09:52:28+01:00",
+      "publication_date": "",
+      "jurisdiction_codes": [],
+      "country": "England and Wales",
+      "tribunal_level": "Employment Tribunal",
+      "pdf_url": "https://assets.publishing.service.gov.uk/media/6a6cbca90c36759b5ccaa2fe/6029884.2025_Jemma_Wright_v_Mrs_Donna_Douglas.pdf",
+      "page_url": "https://www.gov.uk/employment-tribunal-decisions/j-wright-v-mrs-d-douglas-t-slash-a-harlequin-property-services-6029884-slash-2025",
+      "scraped_at": "2026-08-03T09:54:21.102321+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-08-03T09:54:25.416617+00:00",
+      "outcome": "Respondent Won",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "Employment Judge James",
+      "tribunal_office": "Sheffield",
+      "key_principle": "Unfair dismissal claim dismissed where claimant did not appear at hearing."
     },
     {
       "case_ref": "",
