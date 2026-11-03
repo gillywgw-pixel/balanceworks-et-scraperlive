@@ -3,12 +3,474 @@
     "description": "Employment Tribunal decisions tagged with Equality Act 2010 jurisdiction codes, with PDF-parsed outcome and award data where available.",
     "source": "GOV.UK Employment Tribunal Decisions service",
     "source_url": "https://www.gov.uk/employment-tribunal-decisions",
-    "last_updated": "2026-11-02T15:15:21.843571+00:00",
-    "total_cases": 9581,
-    "pdf_parsed_cases": 9580,
+    "last_updated": "2026-11-03T13:55:15.116772+00:00",
+    "total_cases": 9597,
+    "pdf_parsed_cases": 9596,
     "pdf_parsing_model": "claude-haiku-4-5-20251001"
   },
   "cases": [
+    {
+      "case_ref": "6000038/2025",
+      "case_name": "Mr S Barrett v Keith Rowley KC and others: 6000038/2025",
+      "claimant": "Mr S Barrett",
+      "respondent": "Keith Rowley KC and others",
+      "decision_date": "2026-11-03T11:08:25+00:00",
+      "publication_date": "",
+      "jurisdiction_codes": [],
+      "country": "England and Wales",
+      "tribunal_level": "Employment Tribunal",
+      "pdf_url": "https://assets.publishing.service.gov.uk/media/6ae9bf62a45504d226c49a3a/Mr_S_Barrett_v_1._Keith_Rowley_KC_2._Radcliffe_Chambers_Services_Limited_3._Fiona_Fitzgerald_-_600038-2025_-_Preliminary_Hearing.pdf",
+      "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-s-barrett-v-keith-rowley-kc-and-others-6000038-slash-2025",
+      "scraped_at": "2026-11-03T13:53:46.838420+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-11-03T13:53:55.504447+00:00",
+      "outcome": "Unknown",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [
+        "Religion or Belief",
+        "Disability"
+      ],
+      "claim_types": [
+        "Direct Discrimination",
+        "Harassment",
+        "Victimisation",
+        "Failure to Make Reasonable Adjustments"
+      ],
+      "judge": "Employment Judge Bartlett",
+      "tribunal_office": "London Central",
+      "key_principle": "Deposit orders appropriate where discrimination claims have little reasonable prospect of success based on undisputed documentary evidence."
+    },
+    {
+      "case_ref": "6030028/2025",
+      "case_name": "R Canning v Plymouth City Council: 6030028/2025",
+      "claimant": "R Canning",
+      "respondent": "Plymouth City Council",
+      "decision_date": "2026-11-03T10:26:05+00:00",
+      "publication_date": "",
+      "jurisdiction_codes": [],
+      "country": "England and Wales",
+      "tribunal_level": "Employment Tribunal",
+      "pdf_url": "https://assets.publishing.service.gov.uk/media/6ae8a8e08eaebb6a839ff5a9/Ryan_Canning_-v-_Plymouth_City_Council_-_6030028.2025_-_Judgment.pdf",
+      "page_url": "https://www.gov.uk/employment-tribunal-decisions/r-canning-v-plymouth-city-council-6030028-slash-2025",
+      "scraped_at": "2026-11-03T13:53:56.920004+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-11-03T13:54:01.056594+00:00",
+      "outcome": "Respondent Won",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [
+        "Sex"
+      ],
+      "claim_types": [
+        "Direct Discrimination",
+        "Indirect Discrimination"
+      ],
+      "judge": "Employment Judge Walters",
+      "tribunal_office": "Plymouth",
+      "key_principle": "Protected characteristic and adverse treatment alone cannot shift burden of proof without facts supporting discrimination inference."
+    },
+    {
+      "case_ref": "6026413/2026",
+      "case_name": "S Jacob v Haven Rose Residential Care Home Ltd T/a Kirpa Residential Care: 6026413/2026",
+      "claimant": "S Jacob",
+      "respondent": "Haven Rose Residential Care Home Ltd T/a Kirpa Residential Care",
+      "decision_date": "2026-11-03T10:17:32+00:00",
+      "publication_date": "",
+      "jurisdiction_codes": [],
+      "country": "England and Wales",
+      "tribunal_level": "Employment Tribunal",
+      "pdf_url": "https://assets.publishing.service.gov.uk/media/6ae8b9856861d7adfda2727b/Sheeja_Jacob_-v-_Haven_Rose_Residential_Care_Home_Limited_trading_as_Kirpa_Residential_Care_-_6026413.2026_-_Judgment.pdf",
+      "page_url": "https://www.gov.uk/employment-tribunal-decisions/s-jacob-v-haven-rose-residential-care-home-ltd-t-slash-a-kirpa-residential-care-6026413-slash-2026",
+      "scraped_at": "2026-11-03T13:54:03.162918+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-11-03T13:54:07.628300+00:00",
+      "outcome": "Respondent Won",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [
+        "Victimisation"
+      ],
+      "judge": "Employment Judge Gibson",
+      "tribunal_office": "Exeter",
+      "key_principle": "Claimant failed to demonstrate pretty good chance of success on protected disclosure dismissal claim for interim relief."
+    },
+    {
+      "case_ref": "6029077/2025",
+      "case_name": "C Ungureanu v DF Legal LLP: 6029077/2025",
+      "claimant": "C Ungureanu",
+      "respondent": "DF Legal LLP",
+      "decision_date": "2026-11-03T10:06:48+00:00",
+      "publication_date": "",
+      "jurisdiction_codes": [],
+      "country": "England and Wales",
+      "tribunal_level": "Employment Tribunal",
+      "pdf_url": "https://assets.publishing.service.gov.uk/media/6ae8bcb75b14ba0182a27276/CONSTANTIN_UNGUREANU_-v-_DF_LEGAL_LLP_-_6029077.2025_-_Judgment.pdf",
+      "page_url": "https://www.gov.uk/employment-tribunal-decisions/c-ungureanu-v-df-legal-llp-6029077-slash-2025",
+      "scraped_at": "2026-11-03T13:54:09.769695+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-11-03T13:54:12.889564+00:00",
+      "outcome": "Unknown",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [
+        "Disability"
+      ],
+      "claim_types": [
+        "Failure to Make Reasonable Adjustments"
+      ],
+      "judge": "Employment Judge Oldroyd",
+      "tribunal_office": "Exeter",
+      "key_principle": "Claimant established disability status under Equality Act 2010 for discrimination claims."
+    },
+    {
+      "case_ref": "6036635/2026",
+      "case_name": "B Smith v Cotswold Estates and Gardens Ltd: 6036635/2026",
+      "claimant": "B Smith",
+      "respondent": "Cotswold Estates and Gardens Ltd",
+      "decision_date": "2026-11-03T09:53:05+00:00",
+      "publication_date": "",
+      "jurisdiction_codes": [],
+      "country": "England and Wales",
+      "tribunal_level": "Employment Tribunal",
+      "pdf_url": "https://assets.publishing.service.gov.uk/media/6ae89a77ea57bc848b9ff5ab/Brian_Smith_-v-_Cotswold_Estates_and_Gardens_Limited_-_6036635.2026_-_Judgment..pdf",
+      "page_url": "https://www.gov.uk/employment-tribunal-decisions/b-smith-v-cotswold-estates-and-gardens-ltd-6036635-slash-2026",
+      "scraped_at": "2026-11-03T13:54:21.318290+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-11-03T13:54:24.680683+00:00",
+      "outcome": "Respondent Won",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [
+        "Victimisation"
+      ],
+      "judge": "Employment Judge Walters",
+      "tribunal_office": "Bristol",
+      "key_principle": "Claimant failed to show pretty good chance of success that protected disclosure was reason for dismissal."
+    },
+    {
+      "case_ref": "6012445/2024",
+      "case_name": "Mr A Hurle v Hampshire and Isle of Wight Fire and Rescue Authority: 6012445/2024",
+      "claimant": "Mr A Hurle",
+      "respondent": "Hampshire and Isle of Wight Fire and Rescue Authority",
+      "decision_date": "2026-11-03T09:41:11+00:00",
+      "publication_date": "",
+      "jurisdiction_codes": [],
+      "country": "England and Wales",
+      "tribunal_level": "Employment Tribunal",
+      "pdf_url": "https://assets.publishing.service.gov.uk/media/6ae8a314ea57bc848b9ff5b9/Mr_A_Hurle_v_Hampshire_and_Isle_of_Wight_Fire_and_Rescue_Authority_-_6012445.2024_-_Reasons.pdf",
+      "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-a-hurle-v-hampshire-and-isle-of-wight-fire-and-rescue-authority-6012445-slash-2024",
+      "scraped_at": "2026-11-03T13:54:26.093129+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-11-03T13:54:31.800167+00:00",
+      "outcome": "Unknown",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [
+        "Disability"
+      ],
+      "claim_types": [
+        "Direct Discrimination",
+        "Victimisation",
+        "Failure to Make Reasonable Adjustments"
+      ],
+      "judge": "Employment Judge Self",
+      "tribunal_office": "Southampton",
+      "key_principle": null
+    },
+    {
+      "case_ref": "6048707/2025",
+      "case_name": "K Ramli v NHS Professionals Ltd: 6048707/2025",
+      "claimant": "K Ramli",
+      "respondent": "NHS Professionals Ltd",
+      "decision_date": "2026-11-03T09:37:17+00:00",
+      "publication_date": "",
+      "jurisdiction_codes": [],
+      "country": "England and Wales",
+      "tribunal_level": "Employment Tribunal",
+      "pdf_url": "https://assets.publishing.service.gov.uk/media/6ae8bd94f4a6b3f59cf3759f/K_Ramli_v_NHS_Professionals_Limited_-_6048707_2025_-_Judgment.pdf",
+      "page_url": "https://www.gov.uk/employment-tribunal-decisions/k-ramli-v-nhs-professionals-ltd-6048707-slash-2025",
+      "scraped_at": "2026-11-03T13:54:33.970887+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-11-03T13:54:37.063239+00:00",
+      "outcome": "Claimant Won",
+      "total_award": 279.12,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": 279.12,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": null,
+      "tribunal_office": "Manchester Employment Tribunal",
+      "key_principle": "Unauthorised wage deductions must be repaid in full to the employee."
+    },
+    {
+      "case_ref": "6024930/2026",
+      "case_name": "H Johnson v Sharples Estate Agents Ltd: 6024930/2026",
+      "claimant": "H Johnson",
+      "respondent": "Sharples Estate Agents Ltd",
+      "decision_date": "2026-11-03T09:36:05+00:00",
+      "publication_date": "",
+      "jurisdiction_codes": [],
+      "country": "England and Wales",
+      "tribunal_level": "Employment Tribunal",
+      "pdf_url": "https://assets.publishing.service.gov.uk/media/6ae8bcc5ea57bc848b9ff5e0/Hayley_Johnson_v_Sharples_Estate_Agents_6024930_2026.pdf",
+      "page_url": "https://www.gov.uk/employment-tribunal-decisions/h-johnson-v-sharples-estate-agents-ltd-6024930-slash-2026",
+      "scraped_at": "2026-11-03T13:54:39.269242+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-11-03T13:54:42.075716+00:00",
+      "outcome": "Unknown",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "Employment Judge Holmes",
+      "tribunal_office": "Manchester",
+      "key_principle": "An interim relief application was dismissed as not well founded."
+    },
+    {
+      "case_ref": "6028972/2025",
+      "case_name": "Mr T Crewe v Astra Zeneca: 6028972/2025",
+      "claimant": "Mr T Crewe",
+      "respondent": "Astra Zeneca",
+      "decision_date": "2026-11-03T09:33:12+00:00",
+      "publication_date": "",
+      "jurisdiction_codes": [],
+      "country": "England and Wales",
+      "tribunal_level": "Employment Tribunal",
+      "pdf_url": "https://assets.publishing.service.gov.uk/media/6ae8bb5d232b813648f3758f/Mr_T_Crewe_v_AstraZeneca_UK_Limited_6028972_2025.pdf",
+      "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-t-crewe-v-astra-zeneca-6028972-slash-2025",
+      "scraped_at": "2026-11-03T13:54:44.227243+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-11-03T13:54:47.080326+00:00",
+      "outcome": "Respondent Won",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "Employment Judge Buzzard",
+      "tribunal_office": "Liverpool",
+      "key_principle": null
+    },
+    {
+      "case_ref": "6036279/2025",
+      "case_name": "Mr R S Morris v Greater Manchester Mental Health NHS Foundation Trust: 6036279/2025",
+      "claimant": "Mr R S Morris",
+      "respondent": "Greater Manchester Mental Health NHS Foundation Trust",
+      "decision_date": "2026-11-03T09:32:01+00:00",
+      "publication_date": "",
+      "jurisdiction_codes": [],
+      "country": "England and Wales",
+      "tribunal_level": "Employment Tribunal",
+      "pdf_url": "https://assets.publishing.service.gov.uk/media/6ae8ba7eea57bc848b9ff5cd/Mr_R_Sanni_Morris_v_Greater_Manchester_Mental_Health_NHS_Foundation_Trust_6036279_2025.pdf",
+      "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-r-s-morris-v-greater-manchester-mental-health-nhs-foundation-trust-6036279-slash-2025",
+      "scraped_at": "2026-11-03T13:54:48.499770+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-11-03T13:54:51.389150+00:00",
+      "outcome": "Respondent Won",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "Employment Judge Ganner",
+      "tribunal_office": "Liverpool",
+      "key_principle": "Unfair dismissal complaint dismissed; claim not well-founded."
+    },
+    {
+      "case_ref": "2404405/2025",
+      "case_name": "Dr S Tanna v Yew Tree Medical Centre (A Partnership): 2404404/2025 and 2404405/2025",
+      "claimant": "Dr S Tanna",
+      "respondent": "Yew Tree Medical Centre (A Partnership): 2404404/2025 and",
+      "decision_date": "2026-11-03T09:30:16+00:00",
+      "publication_date": "",
+      "jurisdiction_codes": [],
+      "country": "England and Wales",
+      "tribunal_level": "Employment Tribunal",
+      "pdf_url": "https://assets.publishing.service.gov.uk/media/6ae8b8cb8eaebb6a839ff5bb/Dr_S_Tanna_v_Yew_Tree_Medical_Centre_2404404_2025.pdf",
+      "page_url": "https://www.gov.uk/employment-tribunal-decisions/dr-s-tanna-v-yew-tree-medical-centre-a-partnership-2404404-slash-2025-and-2404405-slash-2025",
+      "scraped_at": "2026-11-03T13:54:52.802371+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-11-03T13:54:56.049485+00:00",
+      "outcome": "Claimant Won",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [
+        "Victimisation"
+      ],
+      "judge": "Employment Judge Leach",
+      "tribunal_office": "Liverpool",
+      "key_principle": "Automatic unfair dismissal succeeds where employee dismissed for making protected disclosures."
+    },
+    {
+      "case_ref": "6020146/2025",
+      "case_name": "Mr M Waqas v Superdrug Stores plc: 6020146/2025",
+      "claimant": "Mr M Waqas",
+      "respondent": "Superdrug Stores plc",
+      "decision_date": "2026-11-03T09:25:00+00:00",
+      "publication_date": "",
+      "jurisdiction_codes": [],
+      "country": "England and Wales",
+      "tribunal_level": "Employment Tribunal",
+      "pdf_url": "https://assets.publishing.service.gov.uk/media/6ae8b666232b813648f37587/Mr_M_Waqas_v_Superdrug_Stores_Plc_-_6020146-2025_-_Judgment.pdf",
+      "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-m-waqas-v-superdrug-stores-plc-6020146-slash-2025",
+      "scraped_at": "2026-11-03T13:54:57.458257+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-11-03T13:55:00.802435+00:00",
+      "outcome": "Respondent Won",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [
+        "Race"
+      ],
+      "claim_types": [
+        "Direct Discrimination",
+        "Failure to Make Reasonable Adjustments"
+      ],
+      "judge": "Employment Judge Heather",
+      "tribunal_office": "Teesside",
+      "key_principle": "Time limits for discrimination claims cannot be extended when not just and equitable; direct discrimination complaint dismissed on merits."
+    },
+    {
+      "case_ref": "6046944/2025",
+      "case_name": "Mr T Ozoanukwe v Hall and Angus Ltd (Mill house): 6046944/2025",
+      "claimant": "Mr T Ozoanukwe",
+      "respondent": "Hall and Angus Ltd (Mill house)",
+      "decision_date": "2026-11-03T09:17:11+00:00",
+      "publication_date": "",
+      "jurisdiction_codes": [],
+      "country": "England and Wales",
+      "tribunal_level": "Employment Tribunal",
+      "pdf_url": "https://assets.publishing.service.gov.uk/media/6ae8b4adf4a6b3f59cf3758d/Ozoanukwe_v_Hall___Angus_6046944-2025_Judgment.pdf",
+      "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-t-ozoanukwe-v-hall-and-angus-ltd-mill-house-6046944-slash-2025",
+      "scraped_at": "2026-11-03T13:55:02.912208+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-11-03T13:55:05.869794+00:00",
+      "outcome": "Claimant Won",
+      "total_award": 1346.4,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": 1346.4,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "Employment Judge Martin",
+      "tribunal_office": "Newcastle Employment Tribunal",
+      "key_principle": "Unlawful deduction from wages for outstanding holiday pay must be repaid to the employee."
+    },
+    {
+      "case_ref": "2501557/2025",
+      "case_name": "Mr J Coulter v H S Conveyancing Ltd: 2501557/2025",
+      "claimant": "Mr J Coulter",
+      "respondent": "H S Conveyancing Ltd",
+      "decision_date": "2026-11-03T09:11:13+00:00",
+      "publication_date": "",
+      "jurisdiction_codes": [],
+      "country": "England and Wales",
+      "tribunal_level": "Employment Tribunal",
+      "pdf_url": "https://assets.publishing.service.gov.uk/media/6ae8b3826861d7adfda27278/John_Coulter_v_HS_Conveyancing_Limited_2501557-2025.pdf",
+      "page_url": "https://www.gov.uk/employment-tribunal-decisions/mr-j-coulter-v-h-s-conveyancing-ltd-2501557-slash-2025",
+      "scraped_at": "2026-11-03T13:55:07.298139+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-11-03T13:55:10.114690+00:00",
+      "outcome": "Claimant Won",
+      "total_award": 2542.5,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": 2542.5,
+        "other": null
+      },
+      "protected_characteristics": [],
+      "claim_types": [],
+      "judge": "Employment Judge Heather",
+      "tribunal_office": "Newcastle upon Tyne",
+      "key_principle": "Unauthorised deductions from wages for unpaid salary and holiday pay must be compensated in full."
+    },
+    {
+      "case_ref": "6008998/2024",
+      "case_name": "Ms P Meggison v South Tees Hospitals NHS Foundation Trust: 6008998/2024",
+      "claimant": "Ms P Meggison",
+      "respondent": "South Tees Hospitals NHS Foundation Trust",
+      "decision_date": "2026-11-03T09:09:10+00:00",
+      "publication_date": "",
+      "jurisdiction_codes": [],
+      "country": "England and Wales",
+      "tribunal_level": "Employment Tribunal",
+      "pdf_url": "https://assets.publishing.service.gov.uk/media/6ae8b22df4a6b3f59cf3758b/Ms._P._Meggison_v_South_Tees_Hospitals_NHS_Foundation_Trust_-_6008998-2024_-_Judgment.pdf",
+      "page_url": "https://www.gov.uk/employment-tribunal-decisions/ms-p-meggison-v-south-tees-hospitals-nhs-foundation-trust-6008998-slash-2024",
+      "scraped_at": "2026-11-03T13:55:11.519540+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-11-03T13:55:15.113859+00:00",
+      "outcome": "Unknown",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [
+        "Disability"
+      ],
+      "claim_types": [
+        "Direct Discrimination",
+        "Indirect Discrimination",
+        "Harassment",
+        "Victimisation",
+        "Failure to Make Reasonable Adjustments"
+      ],
+      "judge": "Employment Judge T.R. Smith",
+      "tribunal_office": "Middlesbrough Combined Court Centre",
+      "key_principle": "Harassment claim partly succeeded where respondent laughed at claimant's disability-related hearing difficulty."
+    },
     {
       "case_ref": "2402140/2025",
       "case_name": "Mrs C Odix v Copse Brook Leisure Ltd (in creditors voluntary liquidation) and Secretary of State for Business and Trade: 2402140/2025",
@@ -52649,6 +53111,39 @@
       "tribunal_office": "Midlands West Employment Tribunal",
       "key_principle": "Tribunal may join parties where interests of justice require despite procedural time limits.",
       "sector": "Private Sector"
+    },
+    {
+      "case_ref": "6009199/2025",
+      "case_name": "Ms F Thorn v Nationwide Building Society: 6009172/2025 and 6009199/2025",
+      "claimant": "Ms F Thorn",
+      "respondent": "Nationwide Building Society: 6009172/2025 and",
+      "decision_date": "2026-05-05T13:48:33+01:00",
+      "publication_date": "",
+      "jurisdiction_codes": [],
+      "country": "England and Wales",
+      "tribunal_level": "Employment Tribunal",
+      "pdf_url": "https://assets.publishing.service.gov.uk/media/69f467c5161a319cff4fbbc1/Ms_Fathima_Thorn_-vs-_Nationwide_Building_Society_-_6009172.2025___6009199.2025_-_Judgment.pdf",
+      "page_url": "https://www.gov.uk/employment-tribunal-decisions/ms-f-thorn-v-nationwide-building-society-6009172-slash-2025-and-6009199-slash-2025",
+      "scraped_at": "2026-11-03T13:54:15.064161+00:00",
+      "pdf_parsed": true,
+      "pdf_parsed_at": "2026-11-03T13:54:19.899731+00:00",
+      "outcome": "Respondent Won",
+      "total_award": null,
+      "award_breakdown": {
+        "injury_to_feelings": null,
+        "loss_of_earnings": null,
+        "other": null
+      },
+      "protected_characteristics": [
+        "Race"
+      ],
+      "claim_types": [
+        "Direct Discrimination",
+        "Victimisation"
+      ],
+      "judge": "Employment Judge Livesey",
+      "tribunal_office": "Bristol",
+      "key_principle": "Claims struck out as abuse of process where claimant repeatedly re-litigated identical causes of action."
     },
     {
       "case_ref": "6010407/2024",
